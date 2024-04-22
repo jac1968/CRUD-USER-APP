@@ -74,7 +74,7 @@ const UserForm = ({createUser, updateUser, editUser, deleteUser, setUpdateUser, 
             </div>
             <div className="form__item">
                 <label htmlFor="image_url">Url Picture: </label>
-                <input {...register('image_url')} className='form__input' id='image_url' type="text" />
+                <input {...register('image_url')} className='form__input' id='image_url' type="text" required/>
             </div>
             <button className={`form__btn ${creditdel === "Delete User" && 'form__btn_del'}`} >{creditdel}</button>
         </form>
