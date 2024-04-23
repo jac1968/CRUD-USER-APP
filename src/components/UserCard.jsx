@@ -26,8 +26,8 @@ const UserCard = ({user, setUpdateUser, setIsOpen, setCreditdel}) => {
         </div>
         <hr className='user__line'/>
         <ul className='user__list'>
-            <li className='user__item'><span>Email :</span><span>{user.email}</span></li>
-            <li className='user__item'><span>Birthday :</span><span><ion-icon name="gift-outline"></ion-icon> {user.birthday}</span></li>
+            <li className='user__item'><span><i className='bx bx-envelope' ></i> Email :</span><span>{user.email}</span></li>
+            <li className='user__item'><span>Birthday :</span><span><i className='bx bxs-gift'></i> {user.birthday}</span></li>
         </ul>
         <hr className='user__line' />
         <div className='user__buttons'>
